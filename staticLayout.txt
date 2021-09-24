@@ -1,0 +1,33 @@
+1st section: 
+
+1. Navbar
+	- two pieces:  
+		-logo, hyperlink
+		-navigation links and button
+	Questions: 
+	1. How to make responsive navbar? 
+	2. What is used for the down arrows?
+	3. How to make dropdowns? 
+	4. How to make nav stay in place and highlight gray?
+
+2. Banner
+	- Banner Image
+	- Banner Text
+	- Banner button
+
+==================================================================
+
+2nd section: 
+
+1.  Header text
+2.  Logo cluster
+3.  Quote
+
+==================================================================
+
+3rd section: 
+
+1.  Gray background image
+2.  Header text
+3.  Paragraph text
+4.  Button

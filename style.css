@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body br {
+    font-size: 10px;
+}
+
+.sectionOne {
+    margin-top: -80px;
+    padding-top: 140px;
+    width: 100%;
+    min-height: auto;
+    background-image: url("./pics/gradient-violet-bg.jpg");
+    background-position-y: 45%;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+
+#logo {
+    width: 201px;
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform .2s;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+nav {
+    width: 97vw;
+    margin-top: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.navLinks {
+    display: block;
+    padding-top: 10px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#premium:hover {
+    text-decoration: underline;
+}
+
+#drop {
+    height: 7px;
+    width: 10px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+
+#navButton {
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 5px;
+    margin-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Segoe UI", "Roboto", "Open Sans", "Helvetica Neue", "sans-serif";
+    letter-spacing: 2px;
+    transition: transform .2s;
+}
+
+#navButton:hover {
+    transform: scale(1.02);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+
+}
+
+#laptop {
+    width: 610px;
+    min-height: 240px;
+    max-height: 356px;
+    margin-top: 102px;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bannerStatement h1 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bannerStatement h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.bannerButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20pt;
+    background-color: #ffa319;
+    border: none;
+    color: white;
+    padding: 12px 60px;
+    font-size: 18px;
+    border-radius: 2pt;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.bannerButton:hover {
+    transform: scale(1.02);
+}
+
+.sectionTwo {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.sectionTwo h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 45px;
+}
+
+.sectionTwo p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    max-width: 940px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoGrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    padding-bottom: 75px;
+}
+
+.sectionThree {
+    background-image: url(./pics/green-bg.jpg);
+    background-size: cover;
+    background-position-y: 18%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sectionThree h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+.sectionThree p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
